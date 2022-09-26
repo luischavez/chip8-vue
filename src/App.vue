@@ -4,7 +4,7 @@ import Keyboard from './components/Keyboard.vue'
 
 window.chip = chip
 
-fetch('/roms/invaders.ch8')
+fetch('roms/invaders.ch8')
   .then(res => res.blob())
   .then(blob => {
     blob.arrayBuffer()
@@ -37,4 +37,5 @@ fetch('/roms/invaders.ch8')
 </template>
 
 <style>
+
 </style>

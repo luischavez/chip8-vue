@@ -4,7 +4,7 @@ import Keyboard from './components/Keyboard.vue'
 
 window.chip = chip
 
-fetch('roms/invaders.ch8')
+fetch('/dist/roms/invaders.ch8')
   .then(res => res.blob())
   .then(blob => {
     blob.arrayBuffer()
